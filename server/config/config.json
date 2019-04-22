@@ -1,0 +1,12 @@
+{
+    "production": {
+        "PORT": 3000,
+        "DARKSKY_API": "",
+        "MAPBOX_API": ""
+    },
+    "development": {
+        "PORT": 3000,
+        "DARKSKY_API": "",
+        "MAPBOX_API": "p"
+    }
+}
