@@ -12,6 +12,7 @@
 
 .Container{
   padding-top: 20px;
+  width: 100%
 }
 
 
@@ -262,5 +263,25 @@ a{
 @keyframes jump{
   50%{
     transform: translate(0,15px)
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .search-box:hover > .search-input {
+    width: 180px;
+  }
+
+  .status-container{
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .current-container{
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .sidenav{
+    display: none
   }
 }
